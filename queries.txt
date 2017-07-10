@@ -1,0 +1,3 @@
+SELECT COUNT(*) FROM dinos;
+SELECT * FROM dinos WHERE period="Jurassic";
+SELECT SUM(length) FROM dinos WHERE period="Cretaceous";
